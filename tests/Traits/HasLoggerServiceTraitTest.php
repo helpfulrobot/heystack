@@ -44,4 +44,4 @@ class HasLoggerServiceTraitTest extends \PHPUnit_Framework_TestCase
             $o->getLoggerService()
         );
     }
-} 
+}

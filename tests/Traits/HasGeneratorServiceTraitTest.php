@@ -48,4 +48,4 @@ class HasGeneratorServiceTraitTest extends \PHPUnit_Framework_TestCase
             $o->getGeneratorService()
         );
     }
-} 
+}

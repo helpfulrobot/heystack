@@ -2,7 +2,6 @@
 
 namespace Heystack\Core\ViewableData;
 
-
 class ViewableDataFormatterTest extends \PHPUnit_Framework_TestCase
 {
     /**

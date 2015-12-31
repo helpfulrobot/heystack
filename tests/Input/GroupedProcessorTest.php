@@ -21,7 +21,6 @@ class GroupedProcessorTest extends \PHPUnit_Framework_TestCase
 
     public function testProcess()
     {
-
         $this->assertEquals('test', $this->groupedProcessor->getIdentifier()->getFull());
 
         $this->groupedProcessor->setProcessors(
@@ -42,7 +41,6 @@ class GroupedProcessorTest extends \PHPUnit_Framework_TestCase
             ],
             $results
         );
-
     }
 
     protected function getProcessorStub($identifier, $process = null)

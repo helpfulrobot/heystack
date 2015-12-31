@@ -20,7 +20,7 @@ class YamlDataObjectSchemaTest extends \PHPUnit_Framework_TestCase
      *
      */
     protected function setUp()
-    {   
+    {
         vfsStream::setup('root', null, [
             'schema.yml' => <<<YAML
 id: Test

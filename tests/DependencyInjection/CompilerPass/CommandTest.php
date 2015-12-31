@@ -62,4 +62,4 @@ class CommandTest extends \PHPUnit_Framework_TestCase
 
         (new Command())->process($container);
     }
-} 
+}

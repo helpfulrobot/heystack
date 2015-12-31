@@ -62,4 +62,4 @@ class InputProcessorHandlerTest extends \PHPUnit_Framework_TestCase
 
         (new InputProcessorHandler())->process($container);
     }
-} 
+}

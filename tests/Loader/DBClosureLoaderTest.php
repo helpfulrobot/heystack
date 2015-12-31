@@ -43,4 +43,4 @@ class DBClosureLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($s->supports($dataList));
         $this->assertFalse(false);
     }
-} 
+}

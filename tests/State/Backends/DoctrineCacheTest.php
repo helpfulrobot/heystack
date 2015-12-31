@@ -91,7 +91,8 @@ class DoctrineCacheTest extends \PHPUnit_Framework_TestCase
         $sid = session_id();
         $cacheProviderMock = $this->getMockBuilder('Doctrine\Common\Cache\CacheProvider')
             ->setMethods(['fetch'])
-            ->getMockForAbstractClass();;
+            ->getMockForAbstractClass();
+        ;
         $cacheProviderMock->expects($this->at(0))
             ->method('fetch')
             ->with($sid . '_' . DoctrineCache::TRACKING_KEY)
@@ -122,7 +123,8 @@ class DoctrineCacheTest extends \PHPUnit_Framework_TestCase
         $sid = session_id();
         $cacheProviderMock = $this->getMockBuilder('Doctrine\Common\Cache\CacheProvider')
             ->setMethods(['fetch', 'save'])
-            ->getMockForAbstractClass();;
+            ->getMockForAbstractClass();
+        ;
         $cacheProviderMock
             ->expects($this->once())
             ->method('fetch')
@@ -161,7 +163,8 @@ class DoctrineCacheTest extends \PHPUnit_Framework_TestCase
         $sid = session_id();
         $cacheProviderMock = $this->getMockBuilder('Doctrine\Common\Cache\CacheProvider')
             ->setMethods(['fetch', 'delete'])
-            ->getMockForAbstractClass();;
+            ->getMockForAbstractClass();
+        ;
         $cacheProviderMock->expects($this->once())
             ->method('fetch')
             ->with($sid . '_' . DoctrineCache::TRACKING_KEY)
@@ -188,7 +191,8 @@ class DoctrineCacheTest extends \PHPUnit_Framework_TestCase
         $sid = session_id();
         $cacheProviderMock = $this->getMockBuilder('Doctrine\Common\Cache\CacheProvider')
             ->setMethods(['fetch', 'delete'])
-            ->getMockForAbstractClass();;
+            ->getMockForAbstractClass();
+        ;
         $cacheProviderMock->expects($this->once())
             ->method('fetch')
             ->with($sid . '_' . DoctrineCache::TRACKING_KEY)
@@ -219,7 +223,8 @@ class DoctrineCacheTest extends \PHPUnit_Framework_TestCase
         $sid = session_id();
         $cacheProviderMock = $this->getMockBuilder('Doctrine\Common\Cache\CacheProvider')
             ->setMethods(['fetch', 'delete'])
-            ->getMockForAbstractClass();;
+            ->getMockForAbstractClass();
+        ;
         $cacheProviderMock->expects($this->once())
             ->method('fetch')
             ->with($sid . '_' . DoctrineCache::TRACKING_KEY)

@@ -62,4 +62,4 @@ class SilverStripeOrmTest extends \PHPUnit_Framework_TestCase
 
         (new SilverStripeOrm())->process($container);
     }
-} 
+}

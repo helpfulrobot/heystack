@@ -203,8 +203,7 @@ class DataObjectGeneratorTest extends \PHPUnit_Framework_TestCase
         $flat = [],
         $parent = false,
         $child = false
-    )
-    {
+    ) {
         $schema->expects($this->any())
             ->method('getIdentifier')
             ->will($this->returnValue(new Identifier($id)));
@@ -220,7 +219,6 @@ class DataObjectGeneratorTest extends \PHPUnit_Framework_TestCase
         }
         
         if ($child) {
-
             $schema->expects($this->once())
                 ->method('getChildStorage')
                 ->will($this->returnValue($child));

@@ -44,4 +44,4 @@ class HasCacheServiceTraitTest extends \PHPUnit_Framework_TestCase
             $o->getCacheService()
         );
     }
-} 
+}

@@ -46,4 +46,4 @@ class HasEventServiceTraitTest extends \PHPUnit_Framework_TestCase
             $o->getEventService()
         );
     }
-} 
+}

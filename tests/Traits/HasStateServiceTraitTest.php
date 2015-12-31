@@ -2,7 +2,6 @@
 
 namespace Heystack\Core\Traits;
 
-
 /**
  * @package Heystack\Core\Traits
  */
@@ -47,4 +46,4 @@ class HasStateServiceTraitTest extends \PHPUnit_Framework_TestCase
             $o->getStateService()
         );
     }
-} 
+}

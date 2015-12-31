@@ -65,7 +65,6 @@ class DataObjectSerializableTraitTest extends \PHPUnit_Framework_TestCase
             'model',
             $t
         );
-
     }
 
     /**
@@ -101,7 +100,6 @@ class DataObjectSerializableTraitTest extends \PHPUnit_Framework_TestCase
             'model',
             $t
         );
-
     }
 }
 
